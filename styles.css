@@ -1,0 +1,77 @@
+/*Css*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto:300,400&display=swap');
+
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+/*              header                  */
+
+header{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.signature{
+    color: #384147;
+    text-align: center;
+    user-select: none;
+}
+
+.signature-heading{
+    font-family: 'Amostely Signature', cursive;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.signature-subhead{
+    font-family: 'Playfair Display SC', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.navbar{
+    background-color: #384147;
+}
+
+.navbar-toggler i {
+    color: #fff;
+    font-size: 25px;
+}
+
+.navbar-toggler .fa-times{
+    display: none;
+}
+
+.navbar-toggler.menu-open .fa-bars{
+    display:none;
+}
+.navbar-toggler.menu-open .fa-times{
+    display:block
+}
+
+.navbar-nav{
+    padding: 20px;
+}
+
+.nav-link{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: opacity .5s;
+}
+
+.nav-link:hover{
+    color: #fff;
+}
