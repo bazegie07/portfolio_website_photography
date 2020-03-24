@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC|Roboto:300,400&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: url(/about_images/hero.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.parallax-el {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url(/about_images/upper.png) no-repeat 50% 50%;
+    background-size: cover;
+    top: 20%;
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 32%;
+    background: url(/about_images/text.png) no-repeat 50% 50%;
+    background-size: cover;
+    mix-blend-mode: overlay;
+}
+
+.clouds {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url(/about_images/clouds.png) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.whitespace {
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 80px 0;
+    font-family: Helvetica;
+}
+
+h1 {
+    font-size: 42px;
+    font-family: Anton;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    line-height: 40px;
+    text-align: justify;
+}

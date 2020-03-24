@@ -4,7 +4,10 @@
 
 html{
     font-family: 'Roboto', sans-serif;
+    
 }
+
+
 
 a:hover{
     text-decoration: none;
@@ -319,9 +322,31 @@ nav:hover .nav-link:not(:hover){
 }
 
 
-.lb-close{
-    position: absolute;
-    float: none;
-    top: -20px;
-    right:30px;
+.lightboxOverlay{
+    overflow: hidden;
+}
+
+
+
+
+@media screen and (min-width: 1200px){
+
+
+    .about-description{
+        top: 50%;
+        width: 40%;
+        outline: 10px solid rgba(56, 65, 71, 0.5);
+        outline-offset: -20px;
+    }
+
+    .about-image img{
+        width: 80%;
+    }
+
+    .lb-close{
+        position: absolute;
+        float: none;
+        top: -20px;
+        right:30px;
+    }
 }
